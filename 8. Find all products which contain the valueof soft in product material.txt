@@ -1,0 +1,31 @@
+8. Find all products which contain the value of soft in product material.
+
+query: db.products.find({ product_material: "Soft" })
+
+
+{
+  _id: ObjectId('666f0ecaa4807b43894e668e'),
+  id: '4',
+  product_name: 'Gorgeous Plastic Pants',
+  product_price: 492,
+  product_material: 'Soft',
+  product_color: 'plum'
+}
+
+{
+  _id: ObjectId('666f0f67a4807b43894e669c'),
+  id: '11',
+  product_name: 'Unbranded Wooden Cheese',
+  product_price: 26,
+  product_material: 'Soft',
+  product_color: 'black'
+}
+
+{
+  _id: ObjectId('666f0f67a4807b43894e669c'),
+  id: '11',
+  product_name: 'Unbranded Wooden Cheese',
+  product_price: 26,
+  product_material: 'Soft',
+  product_color: 'black'
+}

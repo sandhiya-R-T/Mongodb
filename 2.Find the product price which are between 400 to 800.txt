@@ -1,0 +1,51 @@
+2.Find the product price which are between 400 to 800.
+
+
+query : db.products.find({ product_price: { $gte: 400, $lte: 800} })
+
+
+{
+  _id: ObjectId('666f0e3fa4807b43894e6688'),
+  id: '1',
+  'product name': 'Intelligent Fresh Chips',
+  product_price: 655,
+  product_material: 'Concrete',
+  product_color: 'mint green'
+}
+
+{
+  _id: ObjectId('666f0e98a4807b43894e668c'),
+  id: '3',
+  product_name: 'Refined Steel Car',
+  product_price: 690,
+  product_material: 'Rubber',
+  product_color: 'gold'
+}
+
+{
+  _id: ObjectId('666f0ecaa4807b43894e668e'),
+  id: '4',
+  product_name: 'Gorgeous Plastic Pants',
+  product_price: 492,
+  product_material: 'Soft',
+  product_color: 'plum'
+}
+
+{
+  _id: ObjectId('666f0f06a4807b43894e6692'),
+  id: '6',
+  product_name: 'Awesome Wooden Towels',
+  product_price: 474,
+  product_material: 'Plastic',
+  product_color: 'orange'
+}
+
+{
+  _id: ObjectId('666f0f18a4807b43894e6694'),
+  id: '7',
+  product_name: 'Practical Soft Shoes',
+  product_price: 500,
+  product_material: 'Rubber',
+  product_color: 'pink'
+}
+

@@ -1,0 +1,13 @@
+6. Find the product with a row id of 10
+
+query:  db.products.find({ id: "10" })
+
+
+{
+  _id: ObjectId('666f0f56a4807b43894e669a'),
+  id: '10',
+  product_name: 'Generic Wooden Pizza',
+  product_price: 84,
+  product_material: 'Frozen',
+  product_color: 'indigo'
+}
